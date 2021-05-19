@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE Biblioteca SYSTEM "Biblioteca.dtd">
+-->
+<Biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "Biblioteca.xsd">
+    <libros>
+        <libro id="L0001" tipo_clase="novela">
+            <titulo>El resplandor</titulo>
+            <indice>
+                <capitulos>
+                    <capitulo>
+                        <titulo>Capitulo 1</titulo>
+                        <numero_de_paginas>50</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 2</titulo>
+                        <numero_de_paginas>50</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 3</titulo>
+                        <numero_de_paginas>100</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 4</titulo>
+                        <numero_de_paginas>100</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 5</titulo>
+                        <numero_de_paginas>200</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                </capitulos>
+            </indice>
+            <sinopsis>De miedito.</sinopsis>
+            <numero_de_paginas>500</numero_de_paginas>
+        </libro>
+        <libro id="L0002" tipo_clase="infantil">
+            <titulo>El principito</titulo>
+            <indice>
+                <capitulos>
+                    <capitulo>
+                        <titulo>Capitulo 1</titulo>
+                        <numero_de_paginas>100</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 2</titulo>
+                        <numero_de_paginas>200</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                </capitulos>
+            </indice>
+            <sinopsis>No confundir con las galletas principe.</sinopsis>
+            <numero_de_paginas>300</numero_de_paginas>
+        </libro>
+        <libro id="L0003" tipo_clase="didactico">
+            <titulo>Aprendiendo xml</titulo>
+            <indice>
+                <capitulos>
+                    <capitulo>
+                        <titulo>Capitulo 1</titulo>
+                        <numero_de_paginas>150</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 2</titulo>
+                        <numero_de_paginas>100</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                    <capitulo>
+                        <titulo>Capitulo 3</titulo>
+                        <numero_de_paginas>200</numero_de_paginas>
+                        <contenido enlace="ejemplo.com"/>
+                    </capitulo>
+                </capitulos>
+            </indice>
+            <sinopsis>De miedito.</sinopsis>
+            <numero_de_paginas>450</numero_de_paginas>
+        </libro>
+    </libros>
+    <revistas>
+        <revista id="R0001" tipo_clase="informatica" numero_revista="1">
+            <titulo>Zona Hardware</titulo>
+            <indice>
+                <secciones>
+                    <seccion numero_de_paginas="25"/>
+                    <seccion numero_de_paginas="50"/>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </revista>
+        <revista id="R0002" tipo_clase="corazon" numero_revista="3">
+            <titulo>Ventriculos</titulo>
+            <indice>
+                <secciones>
+                    <seccion numero_de_paginas="12"/>
+                    <seccion numero_de_paginas="25"/>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </revista>
+        <revista id="R0003" tipo_clase="coches" numero_revista="1">
+            <titulo>A todo gas</titulo>
+            <indice>
+                <secciones>
+                    <seccion numero_de_paginas="25"/>
+                    <seccion numero_de_paginas="50"/>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </revista>
+        <revista id="R0004" tipo_clase="investigacion" numero_revista="15">
+            <titulo>¡Patos!¿Sone el futuro?</titulo>
+            <indice>
+                <secciones>
+                    <seccion numero_de_paginas="50"/>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </revista>
+        <revista id="R0005" tipo_clase="otras" numero_revista="1">
+            <titulo>Las recetas de kirby</titulo>
+            <indice>
+                <secciones>
+                    <seccion numero_de_paginas="25"/>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </revista>
+    </revistas>
+    <periodicos>
+        <periodico id="P0001" tipo_clase="internacional" fecha_de_publicacion="1111-01-01">
+            <indice>
+                <secciones>
+                    <seccion tipo="economica">
+                        <articulos autor="Bruce Wayne"/>
+                    </seccion>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </periodico>
+        <periodico id="P0002" tipo_clase="nacional" fecha_de_publicacion="9999-12-31">
+            <indice>
+                <secciones>
+                    <seccion tipo="opinion">
+                        <articulos autor="Santiago Segura"/>
+                    </seccion>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </periodico>
+        <periodico id="P0003" tipo_clase="internacional" fecha_de_publicacion="2005-05-05">
+            <indice>
+                <secciones>
+                    <seccion tipo="deportes">
+                        <articulos autor="Usain Bolt"/>
+                    </seccion>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </periodico>
+        <periodico id="P0004" tipo_clase="nacional" fecha_de_publicacion="2000-01-01">
+            <indice>
+                <secciones>
+                    <seccion tipo="nacional">
+                        <articulos autor="Juan Carlos I"/>
+                    </seccion>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </periodico>
+        <periodico id="P0005" tipo_clase="internacional" fecha_de_publicacion="2010-10-10">
+            <indice>
+                <secciones>
+                    <seccion tipo="internacional">
+                        <articulos autor="Odin"/>
+                    </seccion>
+                </secciones>
+            </indice>
+            <contenido enlace="ejemplo.com"/>
+        </periodico>
+    </periodicos>
+</Biblioteca>
